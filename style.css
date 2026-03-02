@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #0b1d3a;
 }
 
 body {
@@ -18,10 +19,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.05), transparent 70%);
 }
 
 .hero h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 3rem;
 }
 
