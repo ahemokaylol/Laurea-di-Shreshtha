@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Graduation Invite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Shreshtha Choudhury</h1>
+    <p class="subtitle">Graduation Celebration</p>
+    <p class="details">March 30 · Milan</p>
+    <a href="#rsvp" class="btn">RSVP</a>
+  </div>
+</section>
+
+<!-- EVENT DETAILS -->
+<section class="section reveal">
+  <h2>Event Details</h2>
+  <p>Politecnico di Milano</p>
+  <p>Time: 6:00 PM</p>
+  <p>Dress Code: Smart Casual</p>
+</section>
+
+<!-- RSVP -->
+<section id="rsvp" class="section reveal">
+  <h2>RSVP</h2>
+
+  <form action="https://formspree.io/f/YOUR_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <select name="attendance">
+      <option value="yes">Attending in person</option>
+      <option value="online">Joining online</option>
+      <option value="no">Not attending</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- ONLINE -->
+<section class="section reveal">
+  <h2>Join Online</h2>
+  <a href="https://meet.google.com/YOUR-LINK" target="_blank" class="btn">
+    Join via Google Meet
+  </a>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
