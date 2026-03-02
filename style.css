@@ -19,7 +19,6 @@ body {
   justify-content: center;
   text-align: center;
   background: radial-gradient(circle at center, rgba(255,255,255,0.05), transparent 70%);
-  background: #0b1d3a;
 }
 
 .hero h1 {
