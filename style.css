@@ -152,3 +152,11 @@ button:hover {
     padding: 80px 20px;
   }
 }
+.btn.meet {
+  border-color: rgba(255,255,255,0.3);
+  opacity: 0.8;
+}
+
+.btn.meet:hover {
+  opacity: 1;
+}
